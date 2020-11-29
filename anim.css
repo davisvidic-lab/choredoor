@@ -1,0 +1,359 @@
+body{
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background-color: rgb(1, 1, 19);
+    position: fixed;
+}
+.particle{
+    position: absolute;
+    border-radius: 100%;
+}
+/*--------now style for particle 1---------*/
+.particle:nth-child(1){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(71vw, 66vh, 64px);
+    animation: particle-animation-1 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-1{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+
+/*--------now style for particle 2---------*/
+.particle:nth-child(2){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(71vw, 66vh, 64px);
+    animation: particle-animation-2 10s infinite;
+    animation-delay: -0.4s;
+}
+@keyframes particle-animation-2{
+    100%{
+        transform: translate3d(26vw, 64vh, 90px);
+    }
+}
+/*--------now style for particle 3---------*/
+.particle:nth-child(3){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(24vw, 26vh, 24px);
+    animation: particle-animation-3 10s infinite;
+    animation-delay: -0.4s;
+}
+@keyframes particle-animation-3{
+    100%{
+        transform: translate3d(26vw, 64vh, 90px);
+    }
+}
+
+/*--------now style for particle 4---------*/
+.particle:nth-child(4){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(78vw, 46vh, 24px);
+    animation: particle-animation-4 10s infinite;
+    animation-delay: -0.4s;
+}
+@keyframes particle-animation-4{
+    100%{
+        transform: translate3d(6vw, 64vh, 90px);
+    }
+}
+/*--------now style for particle 4---------*/
+.particle:nth-child(5){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(47vw, 50vh, 24px);
+    animation: particle-animation-5 10s infinite;
+    animation-delay: -0.4s;
+}
+@keyframes particle-animation-5{
+    100%{
+        transform: translate3d(26vw, 64vh, 90px);
+    }
+}
+
+/*--------now style for particle 6---------*/
+.particle:nth-child(6){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(27vw, 20vh, 24px);
+    animation: particle-animation-6 10s infinite;
+    animation-delay: -0.4s;
+}
+@keyframes particle-animation-6{
+    100%{
+        transform: translate3d(26vw, 64vh, 90px);
+    }
+}
+/*--------now style for particle 7---------*/
+.particle:nth-child(7){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(33vw, 66vh, 64px);
+    animation: particle-animation-7 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-7{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+/*--------now style for particle 8---------*/
+.particle:nth-child(8){
+    height: 8px;
+    width: 8px;
+    background: #ffff;
+    transform: translate3d(31vw, 40vh, 64px);
+    animation: particle-animation-8 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-8{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+/*--------now style for particle 9---------*/
+.particle:nth-child(9){
+    height: 8px;
+    width: 8px;
+    background: rgb(192, 15, 15);
+    transform: translate3d(71vw, 66vh, 64px);
+    animation: particle-animation-9 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-9{
+    100%{
+        transform: translate3d(11vh, 6vh, 43px);
+    }
+}
+
+/*--------now style for particle 10---------*/
+.particle:nth-child(10){
+    height: 8px;
+    width: 8px;
+    background: green;
+    transform: translate3d(11vw, 66vh, 64px);
+    animation: particle-animation-10 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-10{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+/*--------now style for particle 11---------*/
+.particle:nth-child(11){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(34vw, 76vh, 64px);
+    animation: particle-animation-11 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-11{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+/*--------now style for particle 11---------*/
+.particle:nth-child(11){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(34vw, 76vh, 64px);
+    animation: particle-animation-11 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-11{
+    100%{
+        transform: translate3d(11vh, 16vh, 43px);
+    }
+}
+/*--------now style for particle 12---------*/
+.particle:nth-child(12){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(54vw, 36vh, 64px);
+    animation: particle-animation-12 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-12{
+    100%{
+        transform: translate3d(13vh, 26vh, 43px);
+    }
+}
+/*--------now style for particle 13---------*/
+.particle:nth-child(13){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(74vw, 86vh, 64px);
+    animation: particle-animation-13 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-13{
+    100%{
+        transform: translate3d(71vh, 76vh, 43px);
+    }
+}
+/*--------now style for particle 14---------*/
+.particle:nth-child(14){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(84vw, 86vh, 64px);
+    animation: particle-animation-14 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-14{
+    100%{
+        transform: translate3d(71vh, 66vh, 43px);
+    }
+}
+/*--------now style for particle 15---------*/
+.particle:nth-child(15){
+    height: 8px;
+    width: 8px;
+    background: white;
+    transform: translate3d(94vw, 76vh, 64px);
+    animation: particle-animation-15 10s infinite;
+    animation-delay: -0.2s;
+}
+@keyframes particle-animation-15{
+    100%{
+        transform: translate3d(51vh, 16vh, 43px);
+    }
+}
+#logo .img1{
+    width: 70px;
+    border-radius: 100px;
+}
+.form{
+    position: absolute;
+}
+.img2{
+    width: 120px;
+    border-radius: 300px;
+    position: relative;
+    left: 43vw;
+    top: 13vh;
+}
+.form .form-input{
+    position: relative;
+    width: 22vw;
+    height: 40vh;
+    top: 11vh;
+    left: 36vw;
+    color: #ffff;
+    text-align: center;
+    background: rgb(22, 144, 39);
+    box-shadow: 5px solid white;
+}
+.form .form-input p{
+  position: relative;
+  top: 3px;
+}
+#pword p{
+    margin: 10px;
+}
+#password p{
+    margin: -7px;
+}
+#password input{
+    position: relative;
+    top: 10px;
+}
+.submit{
+    width: 5vw;
+    height: 5vh;
+    background: greenyellow;
+    border-radius: 30px;
+}
+button:hover{
+    background-color: rgba(165, 42, 42, 0.493);
+}
+.account {
+    background: #ffff;
+    position: relative;
+    left: 42vw;
+    top: 2vh;
+    width: 50%;
+    height: 7vh;
+    padding: 5px;
+}
+.account ul, li{
+    list-style-type: none;
+}
+.account a{
+    text-decoration: none;
+    color: teal;
+}
+.account a:hover{
+    color: greenyellow;
+}
+.account:hover{
+    background: grey;
+}
+/*------media query-----*/
+@media only screen and (max-width: 600px) and (min-width: 320px){
+    #logo .img1{
+        position: relative;
+        top: 10px;
+        left: 5px;
+        width: 50px;
+        border-radius: 100px;
+    }
+    .form .form-input{
+        position: relative;
+        width: 55vw;
+        height: 48vh;
+        top: 10vh;
+        left: 22vw;
+        color: #ffff;
+        text-align: center;
+        background: rgb(22, 144, 39);
+        box-shadow: 5px solid white;
+    }
+    .form .form-input input{
+        width: 70%;
+    }
+    .img2{
+        width: 90px;
+        border-radius: 300px;
+        position: relative;
+        left: 37vw;
+        top: 12vh;
+    }
+    .submit{
+        width: 25vw;
+        height: 5vh;
+        background: greenyellow;
+        border-radius: 30px;
+    }
+    button:hover{
+        background-color: rgba(165, 42, 42, 0.493);
+    }
+    .account {
+        background: #ffff;
+        position: relative;
+        left: 32vw;
+        top: -5vh;
+        width: 65%;
+        height: 7vh;
+        padding: 5px;
+    }
+  }
